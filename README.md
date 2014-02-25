@@ -5,6 +5,9 @@ I thought it'd be amusing to have a public SSH RSA key that contains a readable
 message and not only random-looking ASCII, if only to confuse the next guy putting his 
 key on some machine at work...
 
+## Prerequisites
+Requires the pyasn1 module. Install with ```pip install pyasn1```
+
 ## How to use it
 Let's create a vanilla unencrypted (no passphrase) [RSA](http://en.wikipedia.org/wiki/RSA) 
 key pair for SSH:
